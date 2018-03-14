@@ -11,7 +11,8 @@ header {
     height: 70px;
     padding: 10px;
     text-align: center;
-    text-anchor: middle;
+    vertical-align: middle;
+    line-height: 70px;
     margin: 10px;
 }
 
@@ -24,11 +25,12 @@ nav {
     height: 70px;
     padding: 10px;
     text-align: center;
-    text-anchor: middle;
+    vertical-align: middle;
+    line-height: 70px;
     margin: 10px;
 }
 
-#claer {
+#clear {
     clear: both;
 }
 
@@ -45,7 +47,9 @@ nav {
 }
 
 #article {
+    float: left;
     background-color: #777;
+    width: 400px;
 }
 
 aside {
@@ -69,6 +73,7 @@ footer {
     height: 70px;
     padding: 10px;
     text-align: center;
-    text-anchor: middle;
+    vertical-align: middle;
+    line-height: 70px;
     margin: 10px;
 }
