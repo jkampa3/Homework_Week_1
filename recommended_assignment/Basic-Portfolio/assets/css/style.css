@@ -1,0 +1,38 @@
+header {
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 10px;
+    width: auto;
+    border-bottom: thin;
+    border-bottom-color: #cccccc;
+}
+
+h1 {
+    position: relative;
+    float: left;
+    border-style: none;
+    width: 235px;
+    height: 50px;
+    background-color: #4aaaa5;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    float: right;
+}
+
+body {
+    background-color: #4aaaa5;
+}
+
+#selfie {
+    width: 200px;
+    height: 300px;
+}
+
+footer {
+    background-color: #666666;
+    padding: 20px;
+    margin: 10px;
+}
