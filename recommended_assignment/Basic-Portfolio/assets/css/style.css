@@ -1,26 +1,32 @@
 header {
+    position: relative;
     background-color: #ffffff;
-    padding: 50px;
+    padding: 10px;
     margin: 10px;
+    height: 70px;
     width: auto;
-    border-bottom: thin;
-    border-bottom-color: #cccccc;
+    border-bottom: solid;
+    border-color: #cccccc
 }
 
 h1 {
-    position: relative;
-    float: left;
-    border-style: none;
+    position: absolute;
+    bottom: 0px;
+    left: 265px;
     width: 300px;
     height: 50px;
     background-color: #4aaaa5;
     text-align: center;
     color: white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    display: inline-block;
+    margin: 0%;
 }
 
 nav {
     float: right;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #777777;
 }
 
 body {
@@ -33,7 +39,7 @@ body {
     margin-top: 30px;
     margin-left: 275px;
     margin-right: 235px;
-    margin-bottom: 45px;
+    margin-bottom: 100px;
     padding: 20px;
     width: 960px;
     height: 400px;
@@ -49,13 +55,14 @@ body {
 h2 {
     clear: left;
     border-bottom: solid;
+    border-color: #cccccc;
 }
 
 .contact {
     margin-top: 30px;
     margin-left: 275px;
     margin-right: 235px;
-    margin-bottom: 45px;
+    margin-bottom: 100px;
     padding: 20px;
     width: 960px;
     height: 400px;
@@ -67,21 +74,25 @@ h2 {
     margin-top: 30px;
     margin-left: 275px;
     margin-right: 235px;
-    margin-bottom: 45px;
+    margin-bottom: 100px;
     padding: 20px;
     width: 960px;
-    height: 500px;
+    height: 400px;
     background-color: #ffffff;
 }
 
 #hangman {
     position: absolute;
+    left: 10px;
+    top: 100px;
     width: 150px;
     height: 150px;
 }
 
 #rps {
     position: absolute;
+    left: 450px;
+    top: 100px;
     width: 150px;
     height: 150px;
 }
@@ -96,12 +107,16 @@ h2 {
 
 #widget {
     position: absolute;
+    left: 250px;
+    bottom: 30px;
     width: 150px;
     height: 150px;
 }
 
 #trivia {
     position: absolute;
+    left: 10px;
+    bottom: 30px;
     width: 150px;
     height: 150px;
 }
