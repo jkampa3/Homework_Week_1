@@ -11,11 +11,12 @@ h1 {
     position: relative;
     float: left;
     border-style: none;
-    width: 235px;
+    width: 300px;
     height: 50px;
     background-color: #4aaaa5;
     text-align: center;
     color: white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
 nav {
@@ -24,15 +25,92 @@ nav {
 
 body {
     background-color: #4aaaa5;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.about-me {
+    margin-top: 30px;
+    margin-left: 275px;
+    margin-right: 235px;
+    margin-bottom: 45px;
+    padding: 20px;
+    width: 960px;
+    height: 400px;
+    background-color: #ffffff;
 }
 
 #selfie {
+    float: left;
     width: 200px;
     height: 300px;
 }
+
+h2 {
+    clear: left;
+    border-bottom: solid;
+}
+
+.contact {
+    margin-top: 30px;
+    margin-left: 275px;
+    margin-right: 235px;
+    margin-bottom: 45px;
+    padding: 20px;
+    width: 960px;
+    height: 400px;
+    background-color: #ffffff;
+}
+
+.portfolio {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 275px;
+    margin-right: 235px;
+    margin-bottom: 45px;
+    padding: 20px;
+    width: 960px;
+    height: 500px;
+    background-color: #ffffff;
+}
+
+#hangman {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+#rps {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+#rpg {
+    position: absolute;
+    left: 250px;
+    top: 100px;
+    width: 150px;
+    height: 150px;
+}
+
+#widget {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
+#trivia {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
 
 footer {
     background-color: #666666;
     padding: 20px;
     margin: 10px;
+    text-align: center;
+    color: aliceblue;
 }
